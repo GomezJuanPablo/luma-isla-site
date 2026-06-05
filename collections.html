@@ -7,8 +7,11 @@
 <meta name="description" content="Five collections of hand-finished work from our family workshop: Catholic statues, wildlife busts, pet memorials, cosplay, and Milwaukee Packout accessories.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0e1a2b">
 </head>
 <body>
 
@@ -16,7 +19,7 @@
 
 <nav class="site-nav">
   <div class="nav-inner">
-    <a href="index.html" class="brand"><span class="brand-mark"></span><span>Luma-Isla Studios</span></a>
+    <a href="index.html" class="brand"><img src="images/logo.png" alt="Luma-Isla Studios logo" class="brand-mark" width="40" height="40"><span>Luma-Isla Studios</span></a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
     </button>
@@ -52,7 +55,7 @@
     <div class="collections">
 
       <a href="#sacred" class="collection reveal">
-        <div class="collection-fill fill-sacred"></div>
+        <div class="media fill-sacred"><img src="images/collection-sacred.jpg" alt="Bronze-finish Catholic and multi-faith statues" loading="lazy" onerror="this.remove()"></div>
         <div class="collection-overlay"></div>
         <div class="collection-meta">
           <div class="num">01 · Sacred works</div>
@@ -63,7 +66,7 @@
       </a>
 
       <a href="#wildlife" class="collection reveal">
-        <div class="collection-fill fill-wildlife"></div>
+        <div class="media fill-wildlife"><img src="images/collection-wildlife.jpg" alt="Hand-finished wildlife and safari busts" loading="lazy" onerror="this.remove()"></div>
         <div class="collection-overlay"></div>
         <div class="collection-meta">
           <div class="num">02 · Statement decor</div>
@@ -74,7 +77,7 @@
       </a>
 
       <a href="#memorials" class="collection reveal">
-        <div class="collection-fill fill-pet"></div>
+        <div class="media fill-pet"><img src="images/collection-pet.jpg" alt="Pet memorial figurines and keepsake urns" loading="lazy" onerror="this.remove()"></div>
         <div class="collection-overlay"></div>
         <div class="collection-meta">
           <div class="num">03 · Keepsakes</div>
@@ -85,7 +88,7 @@
       </a>
 
       <a href="#fandom" class="collection reveal">
-        <div class="collection-fill fill-fandom"></div>
+        <div class="media fill-fandom"><img src="images/collection-fandom.jpg" alt="Cosplay masks and fandom collectibles" loading="lazy" onerror="this.remove()"></div>
         <div class="collection-overlay"></div>
         <div class="collection-meta">
           <div class="num">04 · Fandom</div>
@@ -96,7 +99,7 @@
       </a>
 
       <a href="#packout" class="collection reveal">
-        <div class="collection-fill fill-packout"></div>
+        <div class="media fill-packout"><img src="images/collection-packout.jpg" alt="Milwaukee Packout jobsite accessories" loading="lazy" onerror="this.remove()"></div>
         <div class="collection-overlay"></div>
         <div class="collection-meta">
           <div class="num">05 · Trades</div>
@@ -127,7 +130,7 @@
         </a>
       </div>
       <div class="deco-image reveal" style="background: radial-gradient(ellipse at 30% 30%, rgba(212,162,62,0.4), transparent 60%), linear-gradient(135deg, var(--bronze) 0%, var(--navy-2) 90%);">
-        <span class="tag-label">— Bronze-finish altar pieces</span>
+        <img src="images/collection-sacred.jpg" alt="Bronze-finish Catholic altar statues" loading="lazy" onerror="this.remove()"><span class="tag-label">— Bronze-finish altar pieces</span>
       </div>
     </div>
   </div>
@@ -138,7 +141,7 @@
   <div class="wrap">
     <div class="two-col two-col--wide">
       <div class="deco-image reveal" style="background: radial-gradient(ellipse at 50% 40%, var(--copper) 0%, var(--navy-2) 85%);">
-        <span class="tag-label">— Lion, giraffe, hippo, more</span>
+        <img src="images/collection-wildlife.jpg" alt="Lion, giraffe and hippo busts" loading="lazy" onerror="this.remove()"><span class="tag-label">— Lion, giraffe, hippo, more</span>
       </div>
       <div class="reveal">
         <span class="eyebrow">— 02 · Statement decor</span>
@@ -173,7 +176,7 @@
         </a>
       </div>
       <div class="deco-image reveal" style="background: radial-gradient(ellipse at 40% 30%, var(--patina) 0%, var(--navy-2) 85%);">
-        <span class="tag-label">— Quiet, lasting keepsakes</span>
+        <img src="images/collection-pet.jpg" alt="Pet memorial keepsakes" loading="lazy" onerror="this.remove()"><span class="tag-label">— Quiet, lasting keepsakes</span>
       </div>
     </div>
   </div>
@@ -184,7 +187,7 @@
   <div class="wrap">
     <div class="two-col two-col--wide">
       <div class="deco-image reveal" style="background: radial-gradient(ellipse at 50% 50%, #5a3a2a 0%, var(--navy-2) 85%);">
-        <span class="tag-label">— Convention-ready cosplay</span>
+        <img src="images/collection-fandom.jpg" alt="Convention-ready cosplay masks" loading="lazy" onerror="this.remove()"><span class="tag-label">— Convention-ready cosplay</span>
       </div>
       <div class="reveal">
         <span class="eyebrow">— 04 · Fandom</span>
@@ -218,7 +221,7 @@
         </a>
       </div>
       <div class="deco-image reveal" style="background: radial-gradient(ellipse at 50% 50%, #b30000 0%, #1a1a1a 80%);">
-        <span class="tag-label">— ABS-CF · Made in USA</span>
+        <img src="images/collection-packout.jpg" alt="ABS-CF Packout accessories made in USA" loading="lazy" onerror="this.remove()"><span class="tag-label">— ABS-CF · Made in USA</span>
       </div>
     </div>
   </div>
@@ -241,6 +244,7 @@
 <footer class="site-footer">
   <div class="footer-grid">
     <div class="footer-brand footer-col">
+      <img src="images/logo.png" alt="Luma-Isla Studios logo" class="brand-mark" width="44" height="44">
       <h3>Luma-Isla Studios</h3>
       <p>A veteran-owned, family-run sculpture workshop in Edmond, Oklahoma. Hand-finishing meaningful pieces since 2019.</p>
     </div>

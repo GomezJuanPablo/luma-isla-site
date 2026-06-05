@@ -3,21 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Luma-Isla Studios — Hand-Finished Statues & Decor</title>
+<title>Luma-Isla Studios — Hand-Finished Statues &amp; Decor</title>
 <meta name="description" content="A veteran-owned, family-run sculpture workshop in Edmond, Oklahoma. Hand-finished Catholic statues, wildlife busts, pet memorials, and cosplay collectibles. Ships from our shop.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0e1a2b">
+
+<!-- Social share card (drop images/og-card.jpg in at 1200x630) -->
+<meta property="og:title" content="Luma-Isla Studios — Hand-Finished Statues &amp; Decor">
+<meta property="og:description" content="Veteran-owned, family-run sculpture workshop in Edmond, Oklahoma. Hand-finished statues, busts, memorials &amp; collectibles.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/og-card.jpg">
 </head>
 <body>
 
-<div class="ribbon">Free US shipping on orders $35+ · Hand-finished in Oklahoma by a veteran-owned family workshop</div>
+<div class="ribbon"><strong>Free US shipping on orders $35+</strong> · Hand-finished in Oklahoma by a veteran-owned family workshop</div>
 
 <nav class="site-nav">
   <div class="nav-inner">
     <a href="index.html" class="brand">
-      <span class="brand-mark"></span>
+      <img src="images/logo.png" alt="Luma-Isla Studios logo" class="brand-mark" width="40" height="40">
       <span>Luma-Isla Studios</span>
     </a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -34,29 +43,50 @@
   </div>
 </nav>
 
-<!-- ============ HERO ============ -->
-<header class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow on-dark eyebrow--center" style="justify-content: center;">— Edmond, Oklahoma · Est. 2019</span>
-    <h1>LUMA-ISLA <span class="accent">STUDIOS</span></h1>
-    <div class="hero-pillars">
-      <span>Veteran-Owned</span>
-      <span>Family-Run</span>
-      <span>Customer First</span>
+<!-- ============ HERO (editorial split) ============ -->
+<header class="hero hero--home">
+  <div class="hero-grid">
+    <div class="hero-copy reveal">
+      <span class="eyebrow on-dark">— Edmond, Oklahoma · Est. 2019</span>
+      <h1>Hand-finished <span class="accent">statues</span> &amp; decor, made by family.</h1>
+      <p class="sub">Catholic statues, wildlife busts, pet memorials, and cosplay collectibles — sanded, primed, and painted by hand in our Oklahoma shop.</p>
+      <div class="hero-pillars">
+        <span>Veteran-Owned</span>
+        <span>Family-Run</span>
+        <span>Customer First</span>
+      </div>
+      <div class="hero-ctas">
+        <a href="collections.html" class="btn btn--gold">
+          Explore the work
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+        </a>
+        <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="btn btn--ghost-light">
+          Shop on Etsy
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+      </div>
     </div>
-    <p class="sub">Hand-Finished Statues &amp; Decor</p>
-    <div class="hero-ctas">
-      <a href="collections.html" class="btn btn--gold">
-        Explore the work
-        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
-      </a>
-      <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="btn btn--ghost-light">
-        Shop on Etsy
-        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
-      </a>
+
+    <div class="hero-figure reveal">
+      <img src="images/hero.jpg" alt="A hand-finished bronze statue from the Luma-Isla workshop" loading="eager" onerror="this.remove()">
+      <div class="hero-badge">
+        <div class="n">30+</div>
+        <div class="l">Printers</div>
+      </div>
+      <div class="figure-label">— Bronze-finished · Hand-detailed</div>
     </div>
   </div>
 </header>
+
+<!-- ============ TRUST STRIP ============ -->
+<div class="trust">
+  <div class="trust-inner">
+    <div class="trust-item"><span class="k">Veteran-owned</span><span class="v">U.S. founder</span></div>
+    <div class="trust-item"><span class="k">Made by hand</span><span class="v">No outsourcing</span></div>
+    <div class="trust-item"><span class="k">Ships from OK</span><span class="v">Edmond workshop</span></div>
+    <div class="trust-item"><span class="k">Free US shipping</span><span class="v">Orders $35+</span></div>
+  </div>
+</div>
 
 <!-- ============ COLLECTIONS ============ -->
 <section class="section bg-cream">
@@ -66,52 +96,61 @@
         <span class="eyebrow">— The collections</span>
         <h2 style="margin-top:1rem;">Four bodies of work, <span class="accent">hand-finished</span> in our shop.</h2>
       </div>
-      <p class="lede">Every piece is sanded, primed, painted, and inspected by our family before it ships. Purchase through our Etsy storefront.</p>
+      <p class="lede">Every piece is sanded, primed, painted, and inspected by our family before it ships. Tap any collection to shop it on our Etsy storefront.</p>
     </div>
 
     <div class="collections">
 
-      <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="collection reveal">
-        <div class="collection-fill fill-sacred"></div>
+      <!-- Featured / wide -->
+      <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="collection collection--feature reveal">
+        <div class="media fill-sacred">
+          <img src="images/collection-sacred.jpg" alt="Bronze-finish Catholic and multi-faith statues" loading="lazy" onerror="this.remove()">
+        </div>
         <div class="collection-overlay"></div>
         <div class="collection-meta">
           <div class="num">01 · Sacred works</div>
-          <h3>Catholic &amp; Multi-Faith</h3>
+          <h3>Catholic &amp; Multi-Faith Statues</h3>
           <p>Bronze-finish Mater Dolorosa, St. Joseph, St. Anthony, St. Benedict — pieces for altars and quiet rooms.</p>
-          <span class="arrow-link">View on Etsy →</span>
+          <span class="arrow-link">Shop on Etsy →</span>
         </div>
       </a>
 
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="collection reveal">
-        <div class="collection-fill fill-wildlife"></div>
+        <div class="media fill-wildlife">
+          <img src="images/collection-wildlife.jpg" alt="Hand-finished wildlife and safari busts" loading="lazy" onerror="this.remove()">
+        </div>
         <div class="collection-overlay"></div>
         <div class="collection-meta">
           <div class="num">02 · Statement decor</div>
           <h3>Wildlife Busts</h3>
           <p>Lion, giraffe, hippo, and African Woman bust — for offices, libraries, and nurseries.</p>
-          <span class="arrow-link">View on Etsy →</span>
+          <span class="arrow-link">Shop on Etsy →</span>
         </div>
       </a>
 
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="collection reveal">
-        <div class="collection-fill fill-pet"></div>
+        <div class="media fill-pet">
+          <img src="images/collection-pet.jpg" alt="Pet memorial figurines and keepsake urns" loading="lazy" onerror="this.remove()">
+        </div>
         <div class="collection-overlay"></div>
         <div class="collection-meta">
           <div class="num">03 · Keepsakes</div>
           <h3>Pet Memorials &amp; Urns</h3>
           <p>Quiet, lasting figurines for families who've lost a beloved companion. Sealed compartment option.</p>
-          <span class="arrow-link">View on Etsy →</span>
+          <span class="arrow-link">Shop on Etsy →</span>
         </div>
       </a>
 
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="collection reveal">
-        <div class="collection-fill fill-fandom"></div>
+        <div class="media fill-fandom">
+          <img src="images/collection-fandom.jpg" alt="Cosplay masks and life-size fandom collectibles" loading="lazy" onerror="this.remove()">
+        </div>
         <div class="collection-overlay"></div>
         <div class="collection-meta">
           <div class="num">04 · Fandom</div>
           <h3>Cosplay &amp; Collectibles</h3>
           <p>Black Panther mask set, M'Baku helmet, Venom life-size bust, Treebeard Ent — convention-ready.</p>
-          <span class="arrow-link">View on Etsy →</span>
+          <span class="arrow-link">Shop on Etsy →</span>
         </div>
       </a>
 
@@ -120,61 +159,93 @@
 </section>
 
 <!-- ============ FEATURED PIECES ============ -->
-<section class="section fade-to-cream-2">
+<section class="section bg-cream-2">
   <div class="wrap">
     <div class="s-head reveal">
       <div>
-        <span class="eyebrow">— Hand-Finished Pieces</span>
+        <span class="eyebrow">— Hand-finished pieces</span>
         <h2 style="margin-top:1rem;">A selection from <span class="accent">the catalog</span>.</h2>
       </div>
-      <p class="lede">Click any piece to view sizes, finishes, and reviews on our Etsy storefront.</p>
+      <p class="lede">Tap any piece to view sizes, finishes, and buyer reviews on our Etsy storefront.</p>
     </div>
 
     <div class="pieces">
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="piece reveal">
-        <div class="piece-image"><div class="ph">Mater Dolorosa<br>Virgin Mary</div></div>
+        <div class="piece-image">
+          <img src="images/piece-mater-dolorosa.jpg" alt="Mater Dolorosa Virgin Mary statue" loading="lazy" onerror="this.remove()">
+          <div class="ph">Mater Dolorosa<br>Virgin Mary</div>
+          <div class="view"><span>View on Etsy →</span></div>
+        </div>
         <div class="tag">Catholic</div>
         <h4>Mater Dolorosa</h4>
         <div class="meta">Bronze-finish altar piece</div>
       </a>
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="piece reveal">
-        <div class="piece-image"><div class="ph">St. Joseph<br>with Child Jesus</div></div>
+        <div class="piece-image">
+          <img src="images/piece-st-joseph.jpg" alt="St. Joseph with Child Jesus statue" loading="lazy" onerror="this.remove()">
+          <div class="ph">St. Joseph<br>with Child Jesus</div>
+          <div class="view"><span>View on Etsy →</span></div>
+        </div>
         <div class="tag">Catholic</div>
         <h4>St. Joseph &amp; Child</h4>
         <div class="meta">Bronze altar decor</div>
       </a>
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="piece reveal">
-        <div class="piece-image"><div class="ph">St. Benedict</div></div>
+        <div class="piece-image">
+          <img src="images/piece-st-benedict.jpg" alt="St. Benedict protection figurine" loading="lazy" onerror="this.remove()">
+          <div class="ph">St. Benedict</div>
+          <div class="view"><span>View on Etsy →</span></div>
+        </div>
         <div class="tag">Catholic</div>
         <h4>St. Benedict</h4>
         <div class="meta">Protection figurine</div>
       </a>
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="piece reveal">
-        <div class="piece-image"><div class="ph">Lion Head Bust</div></div>
+        <div class="piece-image">
+          <img src="images/piece-lion-bust.jpg" alt="Lion head bust, bronze finish" loading="lazy" onerror="this.remove()">
+          <div class="ph">Lion Head Bust</div>
+          <div class="view"><span>View on Etsy →</span></div>
+        </div>
         <div class="tag">Wildlife</div>
         <h4>Lion Head Bust</h4>
         <div class="meta">10" bronze finish</div>
       </a>
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="piece reveal">
-        <div class="piece-image"><div class="ph">Giraffe Head Bust</div></div>
+        <div class="piece-image">
+          <img src="images/piece-giraffe-bust.jpg" alt="Giraffe head bust, safari-inspired" loading="lazy" onerror="this.remove()">
+          <div class="ph">Giraffe Head Bust</div>
+          <div class="view"><span>View on Etsy →</span></div>
+        </div>
         <div class="tag">Wildlife</div>
         <h4>Giraffe Head Bust</h4>
         <div class="meta">Safari-inspired</div>
       </a>
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="piece reveal">
-        <div class="piece-image"><div class="ph">Doberman<br>Memorial</div></div>
+        <div class="piece-image">
+          <img src="images/piece-doberman-memorial.jpg" alt="Doberman pet memorial figurine" loading="lazy" onerror="this.remove()">
+          <div class="ph">Doberman<br>Memorial</div>
+          <div class="view"><span>View on Etsy →</span></div>
+        </div>
         <div class="tag">Pet Memorial</div>
         <h4>Doberman Memorial</h4>
         <div class="meta">Multiple sizes</div>
       </a>
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="piece reveal">
-        <div class="piece-image"><div class="ph">Black Panther<br>Triple-Mask Set</div></div>
+        <div class="piece-image">
+          <img src="images/piece-black-panther-set.jpg" alt="Black Panther triple-mask cosplay set" loading="lazy" onerror="this.remove()">
+          <div class="ph">Black Panther<br>Triple-Mask Set</div>
+          <div class="view"><span>View on Etsy →</span></div>
+        </div>
         <div class="tag">Cosplay</div>
         <h4>Black Panther Set</h4>
         <div class="meta">T'Challa · Killmonger · M'Baku</div>
       </a>
       <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="piece reveal">
-        <div class="piece-image"><div class="ph">Venom<br>Life-Size Bust</div></div>
+        <div class="piece-image">
+          <img src="images/piece-venom-bust.jpg" alt="Venom life-size hand-painted bust" loading="lazy" onerror="this.remove()">
+          <div class="ph">Venom<br>Life-Size Bust</div>
+          <div class="view"><span>View on Etsy →</span></div>
+        </div>
         <div class="tag">Fandom</div>
         <h4>Venom Life-Size</h4>
         <div class="meta">Hand-painted symbiote</div>
@@ -182,9 +253,9 @@
     </div>
 
     <div class="center" style="margin-top: var(--s-4);">
-      <a href="collections.html" class="btn btn--ghost">
-        Browse all collections
-        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+      <a href="https://lumaisla.etsy.com" target="_blank" rel="noopener" class="btn btn--ghost">
+        Shop the full catalog on Etsy
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
       </a>
     </div>
   </div>
@@ -195,6 +266,7 @@
   <div class="wrap">
     <div class="two-col">
       <div class="deco-image deco-image--workshop reveal">
+        <img src="images/workshop.jpg" alt="Inside the Luma-Isla workshop in Edmond, Oklahoma" loading="lazy" onerror="this.remove()">
         <span class="tag-label">— The workshop, Edmond, Oklahoma</span>
       </div>
       <div class="reveal">
@@ -211,7 +283,7 @@
   </div>
 </section>
 
-<!-- ============ PROCESS TEASER ============ -->
+<!-- ============ PROCESS (timeline) ============ -->
 <section class="section bg-cream">
   <div class="wrap">
     <div class="s-head s-head--center reveal">
@@ -221,24 +293,24 @@
       <p class="lede">Every sculpture passes through four hands-on stages before it ships.</p>
     </div>
 
-    <div class="steps">
-      <div class="soft-card step reveal">
-        <div class="num">i</div>
+    <div class="flow reveal">
+      <div class="flow-step">
+        <div class="node">i</div>
         <h4>Print</h4>
         <p>Premium PETG, layer by layer, on machines we've maintained and tuned over six years.</p>
       </div>
-      <div class="soft-card step reveal">
-        <div class="num">ii</div>
+      <div class="flow-step">
+        <div class="node">ii</div>
         <h4>Sand &amp; Prime</h4>
         <p>Each piece is hand-sanded to soften every line, then primed for a true finish.</p>
       </div>
-      <div class="soft-card step reveal">
-        <div class="num">iii</div>
+      <div class="flow-step">
+        <div class="node">iii</div>
         <h4>Finish</h4>
         <p>Hand-painted, bronze-washed, or detailed depending on the piece. No two are identical.</p>
       </div>
-      <div class="soft-card step reveal">
-        <div class="num">iv</div>
+      <div class="flow-step">
+        <div class="node">iv</div>
         <h4>Inspect &amp; Ship</h4>
         <p>Personally inspected by family before packing. Memorials ship discreetly.</p>
       </div>
@@ -270,6 +342,7 @@
 <footer class="site-footer">
   <div class="footer-grid">
     <div class="footer-brand footer-col">
+      <img src="images/logo.png" alt="Luma-Isla Studios logo" class="brand-mark" width="44" height="44">
       <h3>Luma-Isla Studios</h3>
       <p>A veteran-owned, family-run sculpture workshop in Edmond, Oklahoma. Hand-finishing meaningful pieces since 2019.</p>
     </div>

@@ -79,3 +79,39 @@ The newsletter form currently captures the email visually but doesn't send it an
 - Average page weight: ~30KB HTML + 20KB CSS + 1KB JS. Faster than any Shopify theme by an order of magnitude.
 
 When real images go in, set `loading="lazy"` on every `<img>` below the fold.
+
+---
+
+## v2 — Modern editorial refresh (June 2026)
+
+A visual modernization pass. **No content rewrites, same palette, same Etsy-first
+model.** What changed:
+
+- **Type system.** Added **Fraunces** (display serif, optical sizing) for all
+  headings; **Inter** stays for body/UI. This is the single biggest "less
+  template-y" change.
+- **De-blocked the layout.** `--bg-2`/`--bg-3` nudged much closer to `--bg` so
+  alternating sections read as one continuous canvas instead of hard bands. More
+  whitespace, hairline separators, softer card shadows.
+- **Editorial split hero** on the homepage (copy left, feature image right, stat
+  badge) replacing the centered block.
+- **Image-first everywhere.** Every card, hero, and stage now has a real `<img>`
+  pointing at `images/`. Missing files fall back to the original gradient via
+  `onerror="this.remove()"` — nothing ever shows a broken-image icon.
+- **Featured collection card** spans full width (`.collection--feature`); process
+  teaser is now a connected timeline (`.flow`) instead of four boxes.
+- **All homepage section cards link to the Etsy storefront.**
+- Added `favicon.svg` + `theme-color`, Open Graph tags on the homepage.
+
+### Image workflow
+See `images/IMAGES.md`. One rule: drop a correctly named file into `images/`,
+commit, done — no HTML editing.
+
+### To-do (updated)
+- [x] Image slots wired site-wide with graceful gradient fallback
+- [x] Favicon added (`favicon.svg`)
+- [x] Open Graph tags on homepage
+- [ ] Add the actual photos to `images/` (see `images/IMAGES.md` for filenames)
+- [ ] Add `images/og-card.jpg` (1200×630) for social sharing
+- [ ] Swap generic Etsy links for individual listing URLs when ready
+- [ ] Wire up the newsletter form to a real backend
