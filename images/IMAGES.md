@@ -45,26 +45,14 @@ the old one.
 | `piece-doberman-memorial.jpg` | Featured piece | 1000 × 1120 | near-square |
 | `piece-black-panther-set.jpg` | Featured piece | 1000 × 1120 | near-square |
 | `piece-venom-bust.jpg` | Featured piece | 1000 × 1120 | near-square |
-| `workshop.jpg` | "Our story" workshop photo | 1200 × 1500 | tall (4:5) |
 
 ### Collections page — `collections.html`
-Reuses the four `collection-*.jpg` files above, **plus**:
-| Filename | Where it shows | Best size (px) | Shape |
-|---|---|---|---|
-| `collection-packout.jpg` | Milwaukee Packout collection | 1200 × 1440 | tall (5:6) |
+Reuses the four `collection-*.jpg` files above. No page-specific files needed.
 
-### Process page — `process.html`
-| Filename | Where it shows | Best size (px) | Shape |
-|---|---|---|---|
-| `process-print.jpg` | Stage i — Print | 1200 × 1500 | tall (4:5) |
-| `process-sand-prime.jpg` | Stage ii — Sand & Prime | 1200 × 1500 | tall (4:5) |
-| `process-finish.jpg` | Stage iii — Finish | 1200 × 1500 | tall (4:5) |
-| `process-inspect-ship.jpg` | Stage iv — Inspect & Ship | 1200 × 1500 | tall (4:5) |
-
-### Commissions page — `commissions.html`
-| Filename | Where it shows | Best size (px) | Shape |
-|---|---|---|---|
-| `finishes.jpg` | Finishes & personalization | 1200 × 1500 | tall (4:5) |
+### Process page — `process.html` and Commissions page — `commissions.html`
+These pages use a designed numeral / finish-swatch treatment instead of photos —
+no image files needed. If you'd rather use real photos here later, just ask and
+we'll wire the slots back in.
 
 ### Social share (optional, nice to have)
 | Filename | Where it shows | Best size (px) | Shape |
